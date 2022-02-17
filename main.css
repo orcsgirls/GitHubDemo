@@ -34,7 +34,7 @@ h1 {
 nav {
   position: fixed;
   overflow: hidden;
-  background: #1799b6;
+  background: #dc7973;
   -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
   box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
@@ -118,17 +118,18 @@ nav a:hover:after {
   font-size: 20px;
 }
 
-.socialicon img {
-  width: 40px;
-  height: 40px;
-  margin-top: 30px;
-}
 
 .about {
   text-align: center;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.aboutabout {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  text-align: left;
 }
 
 .skills {
@@ -152,7 +153,7 @@ nav a:hover:after {
   font-size: 25px;
   height: 100%;
   width: 90%;
-  background-color: #1799b6;
+  background-color: #455577;
 }
 
 .js {
@@ -162,84 +163,79 @@ nav a:hover:after {
   font-size: 25px;
   height: 100%;
   width: 80%;
-  background-color: #1799b6;
+  background-color: #455577;
 }
-.php {
+.git {
   border-radius: 20px;
   text-align: right;
   font-size: 25px;
   height: 100%;
   width: 75%;
-  background-color: #1799b6;
+  background-color: #c8293f;
 }
 
-.wp {
+.python {
   text-align: right;
   font-size: 25px;
   height: 100%;
   border-radius: 20px;
   width: 80%;
-  background-color: #1799b6;
-}
-
-.jm {
-  text-align: right;
-  border-radius: 20px;
-  font-size: 25px;
-  height: 100%;
-  width: 65%;
-  background-color: #1799b6;
-}
-
-.services {
-  text-align: left;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.service-details div {
-  width: 70%;
-  height: 120px;
-  margin-bottom: 20px;
-}
-
-.service-details div img {
-  margin-top: 10px;
-  width: 100px;
-  height: 100px;
-  float: left;
-}
-
-.service-details h3 {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 26px;
-}
-
-.service-details p {
-  font-size: 20px;
-  margin-right: 10px;
-  font-family: "Varela Round", sans-serif;
+  background-color: #455577;
 }
 
 .blog {
   margin-left: 50px;
 }
 
-.blog img {
-  width: 300px;
-  height: 300px;
-  margin-right: 20px;
-  margin-bottom: 30px;
+.blogitem {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  padding: 15px;
+  width=100%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  overflow: auto;
+  background-color: #eeeeee;
+}
+
+.blogitem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float: right;
+}
+
+.blogitem h1 {
+  text-align: left;
+  font-size: 28px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: normal;
+  margin-bottom: 15px;
+  color: #c8293f;
 }
 
 .contact {
   margin-left: 50px;
 }
 
+.contact img {
+  padding-right: 10px;
+  width: 75px;
+  height: 75px;
+}
+
+.contact-about {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
 .contact-socialicon {
-  text-align: center;
-  margin-top: 150px;
+  text-align: left;
+  margin-top: 25px;
   margin-bottom: 20px;
 }
 
