@@ -132,10 +132,14 @@ nav a:hover:after {
 }
 
 .skills {
-  border-radius: 20px;
+  text-align: right;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  color: #dbdbdb;
   height: 30px;
   width: 600px;
   background-color: #dbdbdb;
+  border-radius: 20px;
 }
 
 .skill {
@@ -147,34 +151,30 @@ nav a:hover:after {
 }
 
 .html {
+  padding-right: 10px;
   border-radius: 20px;
-  text-align: right;
-  font-size: 25px;
   height: 100%;
   width: 90%;
   background-color: #455577;
 }
 
 .js {
+  padding-right: 10px;
   border-radius: 20px;
-  text-align: right;
-  font-size: 25px;
   height: 100%;
   width: 80%;
   background-color: #455577;
 }
 .git {
+  padding-right: 10px;
   border-radius: 20px;
-  text-align: right;
-  font-size: 25px;
   height: 100%;
   width: 75%;
   background-color: #c8293f;
 }
 
 .python {
-  text-align: right;
-  font-size: 25px;
+  padding-right: 10px;
   height: 100%;
   border-radius: 20px;
   width: 80%;
@@ -194,7 +194,7 @@ nav a:hover:after {
   padding: 15px;
   width=100%;
   border: 1px solid #ddd;
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: auto;
   background-color: #eeeeee;
 }
