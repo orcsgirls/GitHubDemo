@@ -111,7 +111,6 @@ nav a:hover:after {
 
 .nameabout {
   font-family: "Titillium Web", sans-serif;
-
   line-height: 30px;
   margin-right: 50px;
   margin-left: 50px;
@@ -158,7 +157,6 @@ nav a:hover:after {
 
 .js {
   border-radius: 20px;
-
   text-align: right;
   font-size: 25px;
   height: 100%;
@@ -255,7 +253,11 @@ footer p {
   nav {
     margin-left: 0;
   }
-
+  
+  .main {
+    margin-left: 270px;
+  }
+  
   .skills {
     width: 100%;
   }
